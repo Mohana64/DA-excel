@@ -1,0 +1,22 @@
+/.To trim an proper
+
+to properly trim and arrange the name or any other data we can use   
+        =trim(proper(e4))
+	
+/. To remove duplicate
+  
+   ctr+a --(to select every thing in a sheet)
+   go to Data--remove duplicate
+
+/. to separate a single column to two
+ we can select the column that we want to separate the go to -- Data--text to columns--next--(we have a delimiter in which we can select if option is there or can choose others and give want ever we have in our data)--next--column (which the data is existed)--finish
+
+/.To  fill the empty cell
+   
+    ctrl+a
+ home-find & select --sepical--in formula bar type--NA--ctrl+enter 
+
+/. if
+
+ we can use if function when there is a calculaction is done but the one cell is empty
+    =iferror(value(eg.g2/h2),erorr value (eg."NA")
